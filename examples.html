@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Image & Icon Select by iss Sufiyan</title>
+    <link rel="stylesheet" href="src/mini.css/mini-default.min.css">
+    <link rel="stylesheet" href="src/chosen/chosen.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
+
+    <script src="src/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="src/chosen/chosen.jquery.min.js" type="text/javascript"></script>
+
+    <script src="image-icon-select/imageIconSelect.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="image-icon-select/imageIconSelect.min.css">
+
+    <style>
+      .row {
+        justify-content: center;
+        align-items: center;
+      }
+      .lows {
+        color: #777;
+        margin:0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-8">
+          <h2># Signle Select</h2>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <button><a href="https://github.com/yourabusufiyan/image-icon-select/" >Fork On Github</a></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 col-sm-10">
+          <h2 class="lows">LTR</h2>
+          <small>Left to Right</small>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Image Selects</h4>
+          <select class="iss-image-selects">
+            <option value="Abu Sufiyan" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">Abu Sufiyan</option>
+            <option value="Desi Coder" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">Desi Coder</option>
+            <option value="Asim Watson" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">Asim Watson</option>
+            <option value="Programmer" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">Programmer</option>
+          </select>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Icon Selects</h4>
+          <select class="iss-image-selects">
+            <option value="Car" data-icon='<i class="fas fa-car"></i>'>Car</option>
+            <option value="Bike" data-icon='<i class="fas fa-motorcycle"></i>'>Bike</option>
+            <option value="Bicycle" data-icon='<i class="fas fa-bicycle"></i>'>Bicycle</option>
+            <option value="Plane" data-icon='<i class="fas fa-plane"></i>'>Plane</option>
+            <option value="Train" data-icon='<i class="fas fa-train"></i>'>Train</option>
+            <option value="Bus" data-icon='<i class="fas fa-bus"></i>'>Bus</option>
+          </select>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Image & Icon Selects</h4>
+          <select class="iss-image-selects">
+            <option value="Abu Sufiyan" data-icon='<i class="fas fa-car"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">Abu Sufiyan</option>
+            <option value="Desi Coder" data-icon='<i class="fas fa-motorcycle"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">Desi Coder</option>
+            <option value="Asim Watson" data-icon='<i class="fas fa-plane"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">Asim Watson</option>
+            <option value="Programmer" data-icon='<i class="fas fa-bus"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">Programmer</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 col-sm-10">
+          <h2 class="lows">RTL</h2>
+          <small>Right to Left</small>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Image Selects</h4>
+          <select class="iss-image-selects-rtl">
+            <option value="أبو صفيان" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">أبو صفيان</option>
+            <option value="دیسی کوڈر" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">دیسی کوڈر</option>
+            <option value="عاصم واتسون" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">عاصم واتسون</option>
+            <option value="مبرمج" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">مبرمج</option>
+          </select>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Icon Selects</h4>
+          <select class="iss-image-selects-rtl">
+            <option value="سيارة" data-icon='<i class="fas fa-car"></i>'>سيارة</option>
+            <option value="دراجة نارية" data-icon='<i class="fas fa-motorcycle"></i>'>دراجة نارية</option>
+            <option value="دراجة" data-icon='<i class="fas fa-bicycle"></i>'>دراجة</option>
+            <option value="طائرة" data-icon='<i class="fas fa-plane"></i>'>طائرة</option>
+            <option value="قطارقطار" data-icon='<i class="fas fa-train"></i>'>قطارقطار</option>
+            <option value="حافلة" data-icon='<i class="fas fa-bus"></i>'>حافلة</option>
+          </select>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Image & Icon Selects</h4>
+          <select class="iss-image-selects-rtl">
+            <option value="أبو صفيان" data-icon='<i class="fas fa-car"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">أبو صفيان</option>
+            <option value="دیسی کوڈر" data-icon='<i class="fas fa-motorcycle"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">دیسی کوڈر</option>
+            <option value="عاصم واتسون" data-icon='<i class="fas fa-plane"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">عاصم واتسون</option>
+            <option value="مبرمج" data-icon='<i class="fas fa-bus"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">مبرمج</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <br/><br/><hr/><br/>
+
+    <div class="container">
+      <h2># Multiple Select</h2>
+      <div class="row">
+        <div class="col-md-1 col-sm-10">
+          <h2 class="lows">LTR</h2>
+          <small>Left to Right</small>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Image Multiple Selects</h4>
+          <select class="iss-multiple-selects">
+            <option value="Abu Sufiyan" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">Abu Sufiyan</option>
+            <option value="Desi Coder" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">Desi Coder</option>
+            <option value="Asim Watson" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">Asim Watson</option>
+            <option value="Programmer" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">Programmer</option>
+          </select>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Icon Selects</h4>
+          <select class="iss-multiple-selects" multiple>
+            <option value="Car" data-icon='<i class="fas fa-car"></i>'>Car</option>
+            <option selected value="Bike" data-icon='<i class="fas fa-motorcycle"></i>'>Bike</option>
+            <option value="Bicycle" data-icon='<i class="fas fa-bicycle"></i>'>Bicycle</option>
+            <option selected value="Plane" data-icon='<i class="fas fa-plane"></i>'>Plane</option>
+            <option selected value="Train" data-icon='<i class="fas fa-train"></i>'>Train</option>
+            <option value="Bus" data-icon='<i class="fas fa-bus"></i>'>Bus</option>
+          </select>
+        </div>
+        <div class="col-md-4 col-sm-10">
+          <h4>Image & Icon Selects</h4>
+          <select class="iss-multiple-selects">
+            <option value="Abu Sufiyan" data-icon='<i class="fas fa-car"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">Abu Sufiyan</option>
+            <option value="Desi Coder" data-icon='<i class="fas fa-motorcycle"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">Desi Coder</option>
+            <option value="Asim Watson" data-icon='<i class="fas fa-plane"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">Asim Watson</option>
+            <option value="Programmer" data-icon='<i class="fas fa-bus"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">Programmer</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 col-sm-10">
+          <h2 class="lows">RTL</h2>
+          <small>Right to Left</small>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Image Multiple Selects</h4>
+          <select class="iss-multiple-selects-rtl">
+            <option value="أبو صفيان" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">أبو صفيان</option>
+            <option value="دیسی کوڈر" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">دیسی کوڈر</option>
+            <option value="عاصم واتسون" data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">عاصم واتسون</option>
+            <option value="مبرمج" data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">مبرمج</option>
+          </select>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Icon Selects</h4>
+          <select class="iss-multiple-selects-rtl" multiple>
+            <option selected value="سيارة" data-icon='<i class="fas fa-car"></i>'>سيارة</option>
+            <option value="دراجة نارية" data-icon='<i class="fas fa-motorcycle"></i>'>دراجة نارية</option>
+            <option value="دراجة" data-icon='<i class="fas fa-bicycle"></i>'>دراجة</option>
+            <option selected value="طائرة" data-icon='<i class="fas fa-plane"></i>'>طائرة</option>
+            <option selected value="قطار" data-icon='<i class="fas fa-train"></i>'>قطار</option>
+            <option value="حافلة" data-icon='<i class="fas fa-bus"></i>'>حافلة</option>
+          </select>
+        </div>
+        <div class="col-md-4 col-sm-10">
+          <h4>Image & Icon Selects</h4>
+          <select class="iss-multiple-selects-rtl">
+            <option value="أبو صفيان" data-icon='<i class="fas fa-car"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p24x24/37293317_1959866084304422_5813270597714575360_n.jpg?_nc_cat=110&_nc_ht=scontent.fagr1-1.fna&oh=17aec623aab25ab15676c55f35e6fdda&oe=5D21D7BF">أبو صفيان</option>
+            <option value="دیسی کوڈر" data-icon='<i class="fas fa-motorcycle"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/p206x206/23472479_1833947840229581_7782991097302838927_n.jpg?_nc_cat=108&_nc_ht=scontent.fdel3-1.fna&oh=474280db120091363bd81926330626e7&oe=5D0E6A7C">دیسی کوڈر</option>
+            <option value="عاصم واتسون" data-icon='<i class="fas fa-plane"></i>' data-img="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/s168x128/26220268_723979354466902_4090360168838182314_n.jpg?_nc_cat=103&_nc_ht=scontent.fdel3-1.fna&oh=769880467897f3d143875adbf31a78b2&oe=5D257932">عاصم واتسون</option>
+            <option value="مبرمج" data-icon='<i class="fas fa-bus"></i>' data-img="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c99.38.768.768a/s32x32/44065438_329432130939981_1287125424286990336_n.jpg?_nc_cat=106&_nc_ht=scontent.fagr1-1.fna&oh=498f91c50d0fc773b46cee8d12e7e8ba&oe=5D1BA996">مبرمج</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <footer class="responsive-padding responsive-margin" style="text-align: center;">
+      <p class="doc" style="font-size: 24px;">
+        © 2019 <a href="http://www.abusufiyan.com/" target="_blank" class="doc">Abu Sufiyan</a>
+      </p>
+    </footer>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.iss-image-selects').ImageIconSelect();
+      $('.iss-image-selects-rtl').ImageIconSelect({rtl: true});
+      $('.iss-multiple-selects').attr('multiple','multiple').ImageIconSelect();
+      $('.iss-multiple-selects-rtl').attr('multiple','multiple').ImageIconSelect({rtl: true});
+    });
+    </script>
+  </body>
+</html>

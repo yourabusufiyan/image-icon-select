@@ -1,0 +1,11 @@
+/**
+ * Image Icon Select Styles
+ *
+ * @author      Abu Sufiyan <abusufiyan@programmer.net>
+ * @copyright   2019 Abu Sufiyan http://www.abusufiyan.com
+ * @license     MIT License, https://github.com/harvesthq/chosen/blob/master/LICENSE.md
+ * @Fullsource  https://github.com/yourabusufiyan/image-icon-select
+ * @package     yourabusufiyan/image-icon-select
+ */
+
+.image-icon-select{width:100%!important}.image-icon-select .chosen-results li,.image-icon-select .search-choice li,.image-icon-select .chosen-single span{background-position-x:3px;background-position-y:center;background-size:19px 19px;background-repeat:no-repeat;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;padding-left:26px;height:100%}.image-icon-select .chosen-single{padding-left:2px}.image-icon-select .abu-chosen-icon,.image-icon-select .abu-chosen-img{padding-right:5px}.image-icon-select .search-choice span{background-position:left;background-repeat:no-repeat!important;background-attachment:unset;background-size:19px!important;padding-left:23px}.image-icon-select span.iis-icon{padding:0 5px;background:none;display:inline;margin:0}.image-icon-select.chosen-rtl .chosen-results li,.image-icon-select.chosen-rtl .search-choice li,.image-icon-select.chosen-rtl .chosen-single span{padding-left:0;padding-right:26px;background-position-x:calc(97%)}.image-icon-select.chosen-rtl.chosen-container-multi .search-choice span{padding-left:0;padding-right:23px;background-position:right}.image-icon-select.chosen-rtl.chosen-container-multi .search-choice span.iis-icon{padding:0 5px}.image-icon-select.chosen-rtl .chosen-single span.iis-icon{padding:0 5px}
