@@ -8,6 +8,9 @@ Image Icon Select is an extension of Chosen.
 Image Icon Select provides to select option display image or icon or both at the same time to make user select easy. I designed this plugin extension to use in my Options Framework. Framework is not ready yet.
 
 #### Demo ( https://yourabusufiyan.github.io/image-icon-select/examples.html )
+	
+![Image-Icon-Select-demo-gif](image-icon-demo.gif?raw=true "Image-icon-selects-demo")
+
 
 # New Features!
 
